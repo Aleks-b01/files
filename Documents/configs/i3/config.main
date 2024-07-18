@@ -6,7 +6,7 @@
 # ██║  ██║███████╗███████╗██║ ╚██╗██████╔╝     ██║██████╔╝  ╚█████╔╝╚█████╔╝██║ ╚███║██║     ██║╚██████╔╝
 # ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═════╝      ╚═╝╚═════╝    ╚════╝  ╚════╝ ╚═╝  ╚══╝╚═╝     ╚═╝ ╚═════╝ 
 
-exec_always ~/.screenlayout/deafult1.sh
+exec_always ~/.screenlayout/deafult.sh
 set $mod Mod1
 font pango:segoe ui this 11
 exec --no-startup-id dex --autostart --environment i3
@@ -40,8 +40,8 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
-bindsym $mod+1 workspace number $ws1
-bindsym $mod+2 workspace number $ws2
+bindsym $mod+2 workspace number $ws1
+bindsym $mod+1 workspace number $ws2
 bindsym $mod+3 workspace number $ws3
 bindsym $mod+4 workspace number $ws4
 bindsym $mod+5 workspace number $ws5
@@ -50,8 +50,8 @@ bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
-bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+2 move container to workspace number $ws1
+bindsym $mod+Shift+1 move container to workspace number $ws2
 bindsym $mod+Shift+3 move container to workspace number $ws3
 bindsym $mod+Shift+4 move container to workspace number $ws4
 bindsym $mod+Shift+5 move container to workspace number $ws5
@@ -92,7 +92,7 @@ client.focused_inactive $bg $bg $xtext $bg
 client.urgent $bg $bg $text $bg
 hide_edge_borders both
 
-exec_always feh --bg-max ~/Documents/Wallpapers/astronautwallpaper.jpg
+exec_always feh --bg-max ~/Documents/Wallpapers/astronautwallpaper.jpg ~/Documents/Wallpapers/wallpaper.png
 exec_always picom
 default_orientation horizontal
 for_window [class="^.*"] border pixel 2
