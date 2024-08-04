@@ -91,7 +91,7 @@ client.focused_inactive $bg $bg $xtext $bg
 client.urgent $bg $bg $text $bg
 hide_edge_borders both
 
-exec_always nitrogen --set-auto ~/Documents/Wallpapers/astronautwallpaper.jpg ~/Documents/Wallpapers/wallpaper.png
+exec_always nitrogen --restore
 exec_always picom
 default_orientation horizontal
 for_window [class="^.*"] border pixel 2
