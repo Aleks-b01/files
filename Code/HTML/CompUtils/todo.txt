@@ -1,0 +1,10 @@
+Implement so that the second solve automatically pushes the best time to worst if the second time is better than the first one
+
+Implement target avg
+
+
+algtrainer html needs to be fixed
+helper html needs to be built
+settings html needs to be built
+
+the rest of this garbage
