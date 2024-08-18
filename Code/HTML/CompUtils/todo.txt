@@ -1,4 +1,5 @@
-Implement so that the second solve automatically pushes the best time to worst if the second time is better than the first one
+For some reason bpa and wpa in nan, so fix that
+big times.toFixed(2)
 
 Implement target avg
 
