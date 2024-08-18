@@ -95,14 +95,14 @@ function drawTime() {
 		bestx = timebigminutes + timebigseconds;
 	} else if (timecount == 1 && timebig[1] == 0) {
 		time2.innerText = '2.  ' + time[1];
-		processBestWorst();
+		processBestWorstTwo();
 	} else if (timecount == 1 && timebig[1] > 0) {
 		time2.innerText = '2.  ' + timebig[1] + ':' + time[1];
 		timebig2 = timebig[1] + ':' + time[1];
 		let timebigminutes = timebig[1] * 60;
 		let timebigseconds = time[1];
 		time[1] = timebigminutes + timebigseconds;
-		processBestWorst();
+		processBestWorstTwo();
 	} else if (timecount == 2 && timebig[2] == 0) {
 		time3.innerText = '3.  ' + time[2];
 		processBestWorst();
@@ -136,6 +136,31 @@ function drawTime() {
 	}
 };
 
+// Processes the best and worst times but exclusively for the second solve
+function processBestWorstTwo() {
+	if (time[1] < bestx && timebig[1] == 0 && timebig[0] == 0) {
+		worstx = bestx;
+		bestx = time[1];
+		best.innerText = 'Best:  ' + time[1];
+		worst.innerText = 'Worst:  ' + worstx;
+	} else if (time[1] < bestx && timebig[1] == 0 && timebig[0] > 0) {
+		worstx = bestx;
+		bestx = time[1];
+		best.innerText = 'Best:  ' + time[1];
+		worst.innerText = 'Worst:  ' + timebig1;
+	} else if (time[1] < bestx && timebig[1] > 0 && timebig[0] > 0) {
+		worstx = bestx;
+		bestx = time[1];
+		best.innerText = 'Best:  ' + timebig2;
+		worst.innerText = 'Worst:  ' + timebig1;
+	} else if (time[1] > worstx && timebig[1] == 0) {
+		worstx = time[1]
+		worst.innerText = 'Worst:  ' + time[1];
+	} else if (time[1] > worstx && timebig[1] > 0) {
+		worstx = time[1];
+		worst.innerText = 'Worst:  ' + timebig2;
+	}
+};
 // Processes the best and worst times
 function processBestWorst() {
 	if (time[timecount] < bestx && timebig[timecount] == 0) {
@@ -157,15 +182,7 @@ function processBestWorst() {
 
 // Processes the best and worst times for times bigger than a minute
 function processBestWorstBig() {
-	if (timecount == 1 && time[1] < bestx) {
-		bestx = time[1];
-		best.innerText = 'Best:  ' + timebig2;
-		processBPA();
-	} else if (timecount == 1 && time[1] > worstx) {
-		worstx = time[1];
-		worst.innerText = 'Worst:  ' + timebig2;
-		processBPA();
-	} else if (timecount == 2 && time[2] < bestx) {
+	if (timecount == 2 && time[2] < bestx) {
 		bestx = time[2];
 		best.innerText = 'Best:  ' + timebig3;
 		processBPA();
