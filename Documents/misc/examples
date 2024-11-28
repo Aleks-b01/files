@@ -1,0 +1,47 @@
+2x2:
+R' F' U F U2 R' U F U'
+F2 R' U2 R' F2 U' F U2 F2
+U R2 F2 U' F U2 F2 R' U2
+
+3x3:
+Roux
+B2 L2 D' F2 U' R2 F2 L2 B2 D B2 L D F' D R B' U' L2 D
+cfop
+F' R2 D2 F2 D' F2 R2 U R2 B2 D L' D L R2 U B' L U' B'
+
+4x4
+U F' B2 D' L' D' L' B' L F2 U2 R2 U2 R D2 R' D2 L F2 Fw2 U Rw2 U Fw2 R2 L' B2 D2 R' F2 Uw2 Rw2 Fw' L Uw2 Fw' U Fw Uw Rw2 F Fw L' D' Rw
+
+5x5
+hoya
+Rw Fw' B2 Bw' L2 Lw' U' F D2 Dw F' Fw2 B L' Lw2 D' R' Uw2 D' Bw2 F Lw2 Dw2 R2 Rw D' F2 D2 Fw' U2 Fw2 F' Bw' R2 Dw D' B' D Uw Bw2 Lw U' D2 Rw' D' B' Dw' D' Rw F Dw2 U2 B2 R2 Uw2 B2 L Bw Rw Dw
+yau
+Dw2 Uw Fw B R Uw2 L2 F' Uw' U Bw Uw R Uw2 B' Fw' F2 L' Uw2 Fw Bw Lw' F' Rw2 Dw Rw' U' D Fw R2 Lw F U Dw2 F2 Bw' Lw2 Bw Fw' B' Rw' R2 Fw D2 F L Fw' D2 U2 Lw F2 Dw Rw Uw2 Fw' F' R Dw' L Lw
+
+6x6
+Dw Uw' D 3Uw' B2 Rw' Uw' 3Uw' Rw 3Rw' Dw2 Lw' L F' Bw' Lw2 3Rw' B2 L' B2 Bw2 Lw' Rw' 3Fw' 3Uw2 R2 F2 U2 B' Rw2 Dw' 3Uw' B2 L' Uw Bw2 3Uw' D Uw' L 3Fw Dw Uw2 F' Bw2 3Rw2 B2 U 3Rw' R Rw 3Uw B Rw2 L2 Lw F' L2 Fw' 3Rw R2 F' 3Fw2 R Lw' Dw B2 Fw 3Rw2 Bw' Fw2 F R Bw' Uw R2 F2 Bw2 Fw2 Uw2
+
+7x7
+Lw2 3Uw' 3Lw2 R' 3Dw' 3Rw2 Fw' F 3Rw2 D2 F B2 Fw R' U2 Bw Uw' Bw' Fw' 3Rw2 3Dw2 Fw D2 F2 Bw' Fw2 3Fw2 L2 D2 3Rw 3Lw' Lw2 L R 3Bw' Uw 3Uw2 Lw2 Dw' 3Rw' 3Uw 3Fw R' 3Dw2 Lw2 Dw2 3Fw Lw Dw2 Bw2 Lw Uw2 Lw2 3Dw2 F2 3Rw Bw' Lw U Bw' 3Rw2 D2 F' Lw 3Fw2 Dw D2 3Rw Bw2 U Dw 3Lw' 3Rw2 Dw' 3Fw' Bw2 Dw2 3Uw2 D Rw2 3Uw' 3Lw2 3Bw2 B U Bw 3Bw2 Uw R 3Bw2 Rw Uw' 3Fw2 Uw' 3Bw2 3Rw R Dw2 F' 3Bw'
+
+pyra
+R B' U L' B' L B' L' l' r' b
+
+skewb
+U R' L U L R U B'
+
+sq1
+ (4,3)/ (5,-4)/ (0,-3)/ (-2,-2)/ (-4,-1)/ (4,0)/ (3,0)/ (-4,-3)/ (0,-4)/ (0,-2)/ (3,0)/ (5,0)
+
+ clonk
+ UR6+ DR1- DL6+ UL3- U4- R6+ D1- L6+ ALL5+ y2 U2- R5+ D2+ L2- ALL2-
+
+ Mega
+  -- +- ++ -+ +- U
+ -+ ++ +- ++ +- U'
+ ++ ++ +- +- ++ U'
+ -- -- -+ -+ ++ U
+ -+ +- -- ++ -+ U
+ -+ -- +- -+ -+ U
+ -+ -- +- -- -+ U
+	
