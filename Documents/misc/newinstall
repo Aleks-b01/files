@@ -42,6 +42,8 @@ vi
 vulkan-intel
 xorg
 xorg-xinit
+xrandr
+wine
 
 
 adwaita dark
