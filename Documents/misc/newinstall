@@ -1,6 +1,5 @@
 alsa
 arandr
-bluetui
 bluez
 chromium
 discord
@@ -49,6 +48,7 @@ wine
 adwaita dark
 anki
 badlion
+bluetui
 envycontrol
 downgrade
 onlyoffice
