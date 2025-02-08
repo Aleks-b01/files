@@ -1,20 +1,60 @@
-D2 U2 B L2 U2 L2 U2 F L U' F2 R F' L' B U B2 Rw' 
-F2 D R2 D F U2 R L2 D2 L2 U B2 D' L2 F2 U F2 R2 L' D' Uw2
-F2 D' F2 D2 B2 U2 L2 U F2 R2 U2 L' B2 R F' R' U' R2 B F' L' Uw'
-F2 R D2 L U2 L' U2 R2 U2 F2 R' F2 U' L' R2 U2 R' D F' U L Fw 
-U' B D B2 D R2 U' L2 D2 R2 D F2 U B R2 F' R B D' F D2 Rw' Uw
-B U D' R2 U2 R' B2 L D U2 F R2 D2 B' L2 F R2 D2 F2 D2 B2 Rw Uw2
-B' F2 R2 D' R2 D U R2 F2 L' B L F' U R' D' F' U2 Rw' 
-R B2 R F B2 D' R2 F' L D2 B R2 B2 L2 D2 L2 F' R2 F2 B Uw'
-U' B2 F2 R D2 L' D2 F2 L' R2 F2 R2 B R2 F' L' B' D' F' L2 Fw Uw'
-B2 D' L2 B2 L2 F2 D L2 D2 F2 L2 U2 R D' U2 L B' U' L B2 D' Fw' 
-F2 U F' B2 U' R' B' D2 B2 D2 B2 L' D2 R D2 L2 F2 U2 L2 B' 
-F L2 U' L2 F2 D' L2 F2 D' F2 L2 U' B' D2 U R B' D' F' Rw2 Uw2
-L D2 F2 R2 F2 U' L2 U' F2 D R2 B F D' B2 L F' R' F' Fw' Uw2
-F' U' F2 D L2 U R2 U2 B2 F2 U' L' D F U' R' B L2 F' D2 Uw
-F D2 B D2 R F2 B U B2 U' R2 D R2 U' B2 L2 U2 R' B Rw Uw
-D R2 F2 U R2 D' F2 D2 R2 B2 R2 F L' U B' D' U' B2 F L' R2 Fw' Uw2
-B2 D R' D' F2 D F' U' R2 D' L2 U' R2 F2 D2 B2 D' L2 F' R Uw2
-R2 B' L' D2 F2 L2 B2 D' L2 D2 L2 U' B2 F' L' U' B' D' U F Uw'
-R2 B' D2 B' U2 F2 D2 L2 U2 L2 F2 U B D2 F R' U2 B' R B' Fw Uw2
-L D2 R' U2 F2 L B2 R' F2 R B' L2 D F2 U' B' R D R2 Rw' Uw
+Intro:
+- on my mind for over 1.5y
+- 1st att 6 months ago and failed
+- picked up again ltl over month ago
+- finished week ago
+- hope to prevent some mistakes and assist
+- last thing I want is for someone to quit
+
+Oz:
+- Corners only worth learning if you don't understand comms yet
+- example UFR UBR RDF
+- example UFR UBR FDR
+- Edges only worth learning if fingertricks will be bad cuz you understand comms now
+- Corners over edges
+
+When to learn 3s:
+- no straight sub x answer yet
+- learn whenever you're ready and feel ready
+- that means you understand comms, understand the goal (will be covered in a bit) have some free time (really don't need much) and dedication
+- sub 2 is recommended by ppl and me, you should start considering at sub 2, doesn't mean don't learn before sub 2
+
+Goal/approach:
+- very important
+- you might say 3s is 800 algs
+- 3s is not 800 algs
+- 3s is 800 comms give or take for algs
+- what that means for you is that you shouldn't drill them into mm instead you should understand the comms/setups
+- example UF FR LB
+- comm in theory is R setup to UF UB LB
+- you don't have to learn it like that, you can think of it as something different, like R2 setup to UF BR LB
+- you might be overwhelmed, I'm not saying this as "you should learn every way to think of the comm"
+- instead I'm showing you that you have variety when learning 3s
+- there is no right or wrong way of understanding a comm
+- what matters is that your brain understands it, that's whats gonna make you be able to recall the comm and learn 3s
+
+Starting to learn:
+- start by doing edge and corner only solves and figure out intuitive comms
+- they don't have to and are not supposed to be the best
+
+Choosing the comms:
+- recommend elis sheet
+- I made my own with blddb
+- would only recommend if you're really determined and ready to refine comms a lot
+
+Approach:
+- learn set by set/letter by letter
+- either learn from the sheet directly or with anki
+- what you're trying to do is figure out the comm first before looking at the answer
+- after learning a set, drill comms with sighted solves
+- can take as little as 15 mins a day
+- if you come across an alg you can either try learn it or leave it for later and come up with an intuitive alg
+- review comms
+
+After 3s:
+- spam solves to get comfortable with 3s
+- took me around 2-3 days for each 3s
+
+Get faster:
+- improve memo
+- improve fingertricks
