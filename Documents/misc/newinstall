@@ -1,55 +1,47 @@
-alsa
+// VM + Desktop
+adwaita-icon-theme
+alacritty
 arandr
-bluez
-chromium
-discord
-gamemode
-gtk 234
+base
+base-devel
+fastfetch
+firefox
+gimp
+git
+gtk2
+gtk3
+gtk4
 htop
-jdk8
-jdk
-lib32-gamemode
+i3-wm
+i3blocks
+i3lock
+intel-ucode
+jdk-openjdk
+jdk8-openjdk
 lib32-mesa
-lib32-nvidia-utils
-lutris
+linux
+linux-firmware
 lxappearance
 mesa
 mesa-utils
 nemo
-neofetch
-nm
 nitrogen
-nvidia
-nvidia-settings
-nvidia-utils
-pipewire
-pipewire-alsa
-pipewire-pulse
 python
-qbittorrent
-vms (qemu)
 rofi
 sddm
 shutter
-steam
-tor
 unzip
-p7zip
-unrar
-vim
 vi
-vulkan-intel
+vim
 xorg
 xorg-xinit
-xrandr
-wine
+xorg-xrandr
 
+// Desktop only
+alsa-utils
+pipewire
+pipewire-alsa
+pipewire-pulse
 
-adwaita dark
-anki
-badlion
-bluetui
-envycontrol
+// AUR
 downgrade
-onlyoffice
-solaar
