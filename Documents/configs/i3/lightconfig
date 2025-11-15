@@ -79,8 +79,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Borders
-set $bg #3d3d3d
-set $xbg #1f1f1f
+set $bg #a3a3a3
+set $xbg #8a8a8a
 set $text #ffffff
 set $xtext #a3a3a3
 
@@ -90,7 +90,7 @@ client.focused_inactive $bg $bg $xtext $bg
 client.urgent $bg $bg $text $bg
 hide_edge_borders both
 
-exec_always nitrogen --set-zoom-fill Documents/Wallpapers/astronautwallpaper.jpg
+exec_always nitrogen --set-zoom-fill Documents/Wallpapers/light.jpg
 exec_always picom
 default_orientation horizontal
 for_window [class="^.*"] border pixel 2
